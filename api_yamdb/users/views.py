@@ -1,3 +1,4 @@
+from api.permissions import IsAdmin
 from django.shortcuts import get_object_or_404
 from rest_framework import filters, status
 from rest_framework.decorators import action, api_view
@@ -7,11 +8,9 @@ from rest_framework.response import Response
 # from rest_framework.views import APIView
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_simplejwt.tokens import RefreshToken
-
-from api.permissions import IsAdmin
 from users.models import User
-from users.serializers import (GetTokenSerializer,
-                               SignUpSerializer, UserSerializer)
+from users.serializers import (GetTokenSerializer, SignUpSerializer,
+                               UserSerializer)
 from users.utils import generate_and_send_code
 
 
