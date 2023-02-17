@@ -1,2 +1,1 @@
-# yamdb_final
-yamdb_final
+Учебный проект для изучения работы GitHub Actions (Яндекс Практикум)
