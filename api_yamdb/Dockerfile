@@ -9,6 +9,6 @@ RUN apt-get update -y \
 && pip install --upgrade pip \
 && pip install -r /app/requirements.txt --no-cache-dir
 
-COPY ./ .
+COPY . .
 
 CMD ["gunicorn", "api_yamdb.wsgi:application", "--bind", "0:8000" ]
