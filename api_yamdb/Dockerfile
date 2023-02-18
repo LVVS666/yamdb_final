@@ -12,7 +12,7 @@ RUN apt-get update -y \
 && pip install -r /app/requirements.txt --no-cache-dir
 
 
-COPY api_yamdb/ .
+COPY . .
 
 
 WORKDIR /app
