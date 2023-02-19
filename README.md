@@ -1,4 +1,4 @@
-![example workflow](https://github.com/lvvs666/yamdb_final/actions/workflows/yamdb_workflow.ymal/badge.svg)
+![example workflow](https://github.com/lvvs666/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 # Учебный проект  API YaMDb
 
