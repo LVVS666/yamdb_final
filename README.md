@@ -1,6 +1,7 @@
 ![example workflow](https://github.com/lvvs666/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 
 # Учебный проект  API YaMDb
+http://158.160.11.226/redoc/
 
 ## Описание:
 
